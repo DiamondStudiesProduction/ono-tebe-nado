@@ -236,3 +236,7 @@
 .footer__list-item_center {
   text-align: center;
 }
+
+.footer-margin {
+  margin-bottom: 90px;
+}
