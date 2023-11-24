@@ -11,7 +11,6 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__menu-nav">
         <ul class="header__menu">
           <li class="header__links-list-item">
             <a href="#0" class="header__list-item header__list-item_no-decoration">
@@ -29,24 +28,19 @@
             </a>
           </li>
         </ul>
-      </nav>
       <a class="header__logo">
         <img src="images/logo-black.svg" class="header__logo-img" alt="Логотип" />
       </a>
       <ul class="header__menu-info">
         <li class="header__links-list-item">
-          <address>
             <a href="tel:+99995555555" class="header__list-item">
               +9 999 555 5555
             </a>
-          </address>
         </li>
         <li class="header__links-list-item">
-          <address>
             <a href="mailto:info@sobaka.ge" class="header__list-item">
               info@sobaka.ge
             </a>
-          </address>
         </li>
         <li class="header__links-list-item">
           <p class="header__adress-paragraph">
@@ -57,9 +51,6 @@
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
-          <img src="images/cover.jpg" alt="покрытие" />
-        </div>
         <h1 class="cover__title">
           <span class="aligned-text"
             >О<span class="letter-spacing-extended">НО</span></span
@@ -81,19 +72,16 @@
             Аукцион вещей, в которые никто не верил
           </p>
           <button type="button" class="bet-button">
-            <span class="cover__description-text">сделать ставку</span>
+            сделать ставку
           </button>
         </div>
       </section>
       <section class="lots">
-        <h3 class="lots__heading lots__heading-padding">ЛОТЫ</h3>
+        <h2 class="lots__title lots__title_padding">ЛОТЫ</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link aligned-text">
-              <article class="card">
-                <div class="overlay">
-                  <img src="images/card-lot-01.jpg" alt="карточка" />
-                </div>
+              <article class="card card_background-image">
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -107,10 +95,7 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card-link aligned-text">
-              <article class="card">
-                <div class="overlay">
-                  <img src="images/card-lot-02.jpg" alt="карточка2" />
-                </div>
+              <article class="card card_background-image2">
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -127,10 +112,7 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card-link aligned-text">
-              <article class="card">
-                <div class="overlay">
-                  <img src="images/card-lot-03.jpg" alt="карточка3" />
-                </div>
+              <article class="card card_background-image3">
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -149,15 +131,11 @@
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <div class="about__logo-overlay">
-              <div class="overlay">
-                <img src="images/logo-white.svg" alt="логотип" />
-              </div>
-            </div>
+                <img src="images/logo-white.svg" alt="логотип" class="overlay" />
           </div>
         </div>
         <div class="about__column-text">
-          <h3 class="lots__heading about__text-title-margin">Об аукционе</h3>
+          <h2 class="about__title about__title_margin">Об аукционе</h2>
           <div class="about__text">
             <p class="about__text-paragraph">
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -182,18 +160,14 @@
     <footer class="footer">
       <ul class="footer__menu-info">
         <li class="footer__links-list-item">
-          <address>
             <a href="tel:+99995555555" class="footer__list-item">
               +9 999 555 5555
             </a>
-          </address>
         </li>
         <li class="footer__links-list-item">
-          <address>
             <a href="mailto:info@sobaka.ge" class="footer__list-item">
               info@sobaka.ge
             </a>
-          </address>
         </li>
         <li class="footer__links-list-item">
           <p class="footer__adress-paragraph">
@@ -201,8 +175,7 @@
           </p>
         </li>
       </ul>
-      <nav>
-        <ul>
+        <ul class="footer__menu">
           <li
             class="footer__links-list-item footer__links-list-item_position"
           >
@@ -225,7 +198,6 @@
             </a>
           </li>
         </ul>
-      </nav>
       <ul class="footer__social-list">
         <li class="footer__links-list-item">
           <a class="footer__social-link"
