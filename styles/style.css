@@ -5,7 +5,7 @@
 }
 
 .cover {
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   padding: 165px 50px 50px 50px;
   display: flex;
   flex-direction: column;
@@ -29,11 +29,12 @@
 }
 
 .cover,
-.card
-{
+.card {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: rgb(0 0 0 / 0.6);
+  background-blend-mode: multiply;
 }
 
 .header__links-list-item,
@@ -60,6 +61,11 @@
 .lots,
 .about {
   margin-bottom: 180px;
+}
+
+.header__list-item,
+.footer__list-item_line-height{
+  line-height: 130%;
 }
 
 .header__menu {
@@ -94,6 +100,7 @@
 
 .cover__title {
   font-size: 100px;
+  line-height: 118%;
   font-weight: 700;
   color: #fff;
   letter-spacing: 30px;
@@ -167,19 +174,17 @@
   min-height: 450px;
 }
 
-.card_background-image{
+.card_background-image {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_background-image2{
+.card_background-image2 {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_background-image3{
+.card_background-image3 {
   background-image: url(../images/card-lot-03.jpg);
 }
-
-
 
 .card__title {
   font-size: 22px;
@@ -233,6 +238,7 @@
   color: #000;
   font-size: 20px;
   font-weight: 400;
+  line-height: 120%;
 }
 
 .about__title_margin {
@@ -241,7 +247,6 @@
 
 .footer__menu-info {
   max-width: 240px;
-  padding-top: 5px;
 }
 
 .footer__social-list {
